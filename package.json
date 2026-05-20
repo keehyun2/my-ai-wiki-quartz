@@ -12,7 +12,7 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
-    "copy-content": "rsync -av --delete ../wiki/ content/ --exclude='.git'",
+    "copy-content": "if [ -d '../wiki' ]; then rsync -av --delete ../wiki/ content/ --exclude='.git'; fi",
     "build": "npm run copy-content && npx quartz build",
     "serve": "npm run copy-content && npx quartz build --serve",
     "quartz": "./quartz/bootstrap-cli.mjs",
