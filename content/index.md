@@ -9,3 +9,5 @@
 - [[concepts/monte-carlo-simulation]] — Monte Carlo simulation in ORE for risk analytics, exposure, and XVA.
 
 ## Explorations
+- [[explorations/fixing-history-vnibor-allow-values]] — VNIBOR fixing history 등록 방법: Generic Index 사용법
+- [[explorations/sources-userguide-json-162-177-yeild-curve]] — ORE Yield Curves (curveconfig.xml) 정리: 162~177페이지
